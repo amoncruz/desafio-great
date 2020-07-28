@@ -60,8 +60,6 @@ namespace GreatDesafio
 
             app.UseCors("CorsPolicy");
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseAuthorization();
@@ -70,6 +68,12 @@ namespace GreatDesafio
             {
                 endpoints.MapControllers();
             });
+
+             using (var scope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                scope.ServiceProvider.GetService<UsuarioContext>().Database.Migrate();
+            }
+            
         }
     }
 }

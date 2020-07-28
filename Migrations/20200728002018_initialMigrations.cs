@@ -2,7 +2,7 @@
 
 namespace GreatDesafio.Migrations
 {
-    public partial class initalMagrations : Migration
+    public partial class initialMigrations : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,13 +12,13 @@ namespace GreatDesafio.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(nullable: true),
-                    Cpf = table.Column<string>(nullable: true),
-                    Rg = table.Column<string>(nullable: true),
-                    NomeDaMae = table.Column<string>(nullable: true),
-                    NomeDoPai = table.Column<string>(nullable: true),
-                    DataDeNascimento = table.Column<string>(nullable: true),
-                    DataDeCadastro = table.Column<string>(nullable: true)
+                    Nome = table.Column<string>(nullable: false),
+                    Cpf = table.Column<string>(nullable: false),
+                    Rg = table.Column<string>(nullable: false),
+                    NomeDaMae = table.Column<string>(nullable: false),
+                    NomeDoPai = table.Column<string>(nullable: false),
+                    DataDeNascimento = table.Column<string>(nullable: false),
+                    DataDeCadastro = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {

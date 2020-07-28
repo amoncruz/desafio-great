@@ -7164,26 +7164,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amons\\.nuget\\packages\\": {}
+    "/home/amon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sistemas\\GreatDesafio\\GreatDesafio.csproj",
+      "projectUniqueName": "/home/amon/desafio-great-backend/GreatDesafio.csproj",
       "projectName": "GreatDesafio",
-      "projectPath": "C:\\Sistemas\\GreatDesafio\\GreatDesafio.csproj",
-      "packagesPath": "C:\\Users\\amons\\.nuget\\packages\\",
-      "outputPath": "C:\\Sistemas\\GreatDesafio\\obj\\",
+      "projectPath": "/home/amon/desafio-great-backend/GreatDesafio.csproj",
+      "packagesPath": "/home/amon/.nuget/packages/",
+      "outputPath": "/home/amon/desafio-great-backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amons\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/amon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7245,7 +7243,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
       }
     }
   }
