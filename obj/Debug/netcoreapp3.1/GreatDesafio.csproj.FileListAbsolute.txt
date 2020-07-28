@@ -113,3 +113,6 @@ C:/Sistemas/GreatDesafio/bin/Debug/netcoreapp3.1/NinjaNye.SearchExtensions.dll
 /home/amon/desafio-great-backend/obj/Debug/netcoreapp3.1/GreatDesafio.dll
 /home/amon/desafio-great-backend/obj/Debug/netcoreapp3.1/GreatDesafio.pdb
 /home/amon/desafio-great-backend/obj/Debug/netcoreapp3.1/GreatDesafio.genruntimeconfig.cache
+/home/amon/desafio-great-backend/bin/Debug/netcoreapp3.1/desafio-great-frontend/package-lock.json
+/home/amon/desafio-great-backend/bin/Debug/netcoreapp3.1/desafio-great-frontend/package.json
+/home/amon/desafio-great-backend/bin/Debug/netcoreapp3.1/desafio-great-frontend/public/manifest.json
